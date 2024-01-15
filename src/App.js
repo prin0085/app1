@@ -1,17 +1,9 @@
 import React from 'react';
 import './style.css';
-import { Header, Content, Footer } from './func-component';
-import Button from './class-component';
+import { Calculator2 } from './calculator';
 
 function App() {
-  return (
-    <>
-      <Header />
-      <p className='text-center'><Button /></p>
-      <Content />
-      <Footer />
-    </>
-  )
+  return <Calculator2 />
 }
 
 export default App;
