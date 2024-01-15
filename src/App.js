@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
-import { Header, Content, Footer } from './func-component'
-import Calendar from './class-component'
+import { Header, Content, Footer } from './func-component';
+import Button from './class-component';
 
 function App() {
   return (
     <>
       <Header />
-      <p className='text-center'><Calendar /></p>
+      <p className='text-center'><Button /></p>
       <Content />
       <Footer />
     </>
