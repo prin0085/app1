@@ -1,17 +1,9 @@
 import React from 'react';
 import './style.css';
-import { userContext } from './context/context'
-import Content from './context/context-content'
-import Header from './context/context-header'
+import Router3 from './router/router3';
 
 function App() {
-  let [user, setUser] = React.useState();
-  return (
-    <userContext.Provider value={[user, setUser]}>
-      <Header />
-      <Content />
-    </userContext.Provider>
-  )
+  return <Router3 />
 }
 
 export default App;
