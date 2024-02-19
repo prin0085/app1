@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import FormSearch from './components/form-search';
+import FormText from './components/form-text';
 
 function App() {
-  return <FormSearch />
+  return <FormText />
 }
 
 export default App;
