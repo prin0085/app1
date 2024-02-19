@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import Router3 from './router/router3';
+import FormSearch from './components/form-search';
 
 function App() {
-  return <Router3 />
+  return <FormSearch />
 }
 
 export default App;
