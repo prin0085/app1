@@ -12,3 +12,7 @@
 .text-center {
     text-align: center;
 }
+
+.mr-1 {
+    margin-right: 0.25rem;
+}
